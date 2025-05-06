@@ -1,12 +1,12 @@
-import type React from "react"
-import PermissionManagementSideNav from "@/components/permission-management-side-nav"
-import PermissionManagementMobileNav from "@/components/permission-management-mobile-nav"
-import { Breadcrumb } from "@/components/breadcrumb"
+import type React from "react";
+import PermissionManagementSideNav from "@/components/permission-management-side-nav";
+import PermissionManagementMobileNav from "@/components/permission-management-mobile-nav";
+import Breadcrumb from "@/components/breadcrumb";
 
 export default function PermissionManagementLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <div className="flex min-h-screen">
@@ -26,5 +26,5 @@ export default function PermissionManagementLayout({
         </div>
       </div>
     </div>
-  )
+  );
 }
